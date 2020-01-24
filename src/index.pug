@@ -1,0 +1,126 @@
+extends layout/template
+
+block vars
+
+block head
+	//+loadCSS('/css/promo.css')
+
+block content
+	.title Лига ссаного лакерка
+	table
+		thead
+			tr
+				th(data-type='numeric')
+					| Имя
+					span.resize-handle
+				th(data-type='text-short')
+					| Очки
+					span.resize-handle
+				th(data-type='text-short')
+					| Набранные очки на играх
+					span.resize-handle
+				th(data-type='text-short')
+					| Игры
+					span.resize-handle
+				th(data-type='text-long')
+					| Оскорбительное прозвище
+					span.resize-handle
+		tbody
+			tr
+				td Яловик
+				td 10
+				td 396
+				td 1
+				td Юля
+			tr
+				td Сидорин
+				td 8
+				td 346
+				td 1
+				td Собака
+			tr
+				td Кустов
+				td 6
+				td 299
+				td 1
+				td Жак
+			tr
+				td Кастюковец
+				td 5
+				td 298
+				td 1
+				td Свинка пепе
+	.title Лига немытых принцесс
+	table
+		thead
+			tr
+				th(data-type='numeric')
+					| Имя
+					span.resize-handle
+				th(data-type='text-short')
+					| Очки
+					span.resize-handle
+				th(data-type='text-short')
+					| Набранные очки на играх
+					span.resize-handle
+				th(data-type='text-short')
+					| Игры
+					span.resize-handle
+				th(data-type='text-long')
+					| Оскорбительное прозвище
+					span.resize-handle
+		tbody
+			tr
+				td Иванов
+				td 4
+				td 290
+				td 1
+				td Базука
+			tr
+				td Гам
+				td 3
+				td 245
+				td 1
+				td ну он же работает
+			tr
+				td Люба
+				td 2
+				td 210
+				td 1
+				td с Гамом
+			tr
+				td Леха
+				td 0
+				td 0
+				td 0
+				td Принцесска
+			tr
+				td Оля
+				td 0
+				td 0
+				td 0
+				td с Принцесска
+			tr
+				td Настя
+				td 0
+				td 0
+				td 0
+				td Лучше всех
+			tr
+				td Шпак
+				td 0
+				td 0
+				td 0
+				td Вор
+			tr
+				td Макс
+				td 0
+				td 0
+				td 0
+				td Лежалый пельмень
+
+
+
+
+block footer
+	script(src="/js/main.bundle.js")
